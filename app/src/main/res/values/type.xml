@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Text">
+
+    </style>
+
+    <style name="Text.Body" parent="Text">
+        <item name="android:fontFamily">@font/satoshi_regular</item>
+    </style>
+
+    <style name="Text.Headline" parent="Text">
+        <item name="android:fontFamily">@font/satoshi_bold</item>
+    </style>
+
+    <style name="SongTitle.Small" parent="Text.Headline">
+        <item name="android:color">@color/song_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="SongTitle.Medium" parent="Text.Headline">
+        <item name="android:color">@color/song_text</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="SongAuthor.Small" parent="Text.Body">
+        <item name="android:color">@color/song_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="SongAuthor.Medium" parent="Text.Body">
+        <item name="android:color">@color/song_text</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>
